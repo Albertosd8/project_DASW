@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a id="nav-bar-logo"class="navbar-brand font-weight-bold ml-4" href="/home.html">EFIMERO<span class="sr-only">(current)</span></a>
+    <div class="container m-0">
+        <ul class="navbar-nav font-weight-light"> <!-- Catalogo de productos --> 
+            <li class="nav-item active"> <!-- producto estrella --> 
+                <a class="nav-link" href="/products.html">LIBRETAS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active"> <!-- productos de mujer --> 
+                <a class="nav-link" href="/products.html">MUJER <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active"> <!-- productos de hombre -->
+                <a class="nav-link" href="/products.html">HOMBRE <span class="sr-only">(current)</span></a>
+            </li> 
+            <li class="nav-item active">
+                <a class="nav-link" href="about_us.html">NOSOTROS</a>
+            </li>  
+        </ul>
+    </div>
+    <div id="nav_icons"class="container justify-content-around w-25">
+        <a href="#" data-toggle="collapse" data-target="#collapseExample"><i class="fa fa-search"></i></a>
+        <a href="/login.html"><i class="fas fa-user"></i></a>
+        <a href="/cart.html"><i class="fa fa-shopping-cart">  0</i></a>
+    </div>
+    </nav>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body border-0"> 
+            <div class="row">
+                <div class="col-11">
+                    <input class="form-control" type="text" placeholder="Buscar producto..." aria-label="Search">
+                </div>
+                <div id ="search_nav_bar"class="col-1 p-0 d-flex justify-content-left">
+                    <a href="#"><i class="fa fa-search align-bottom fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end of navigation bar -->
+        <div class="container w-50 mt-4">
+            <h1>Iniciar sesión</h1>
+            <p>Introduzca la dirección de correo electrónico y contraseña para acceder a su cuenta.</p>
+            <form id="form-login">    
+                <div class="input-group-lg" style="max-height: 640px;">
+                    <label for="email_r">Correo</label>
+                    <input type="email" id="email_r" class="form-control mb-3" placeholder="Correo registrado" aria-label="Correo" aria-describedby="helpId" required>
+                    <label for="password_r">Contraseña</label>
+                    <input type="text" id="password_r" class="form-control" placeholder="Contraseña" aria-label="password" aria-describedby="helpId" required>
+                    <div class="w-100 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary btn-lg mt-3" form="form-login">Iniciar sesión</button>
+                    </div>
+                    <div class="w-100 mt-2">
+                            <div class="mt-4 justify-content-center">
+                                <p>¿No tienes cuenta? <a href="register.html">Registrate aquí</a></p>
+                            </div>               
+                    </div>
+                </div>     
+            </form> 
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

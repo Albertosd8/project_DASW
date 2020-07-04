@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Product</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a id="nav-bar-logo"class="navbar-brand font-weight-bold ml-4" href="/home.html">EFIMERO<span class="sr-only">(current)</span></a>
+        <div class="container m-0">
+            <ul class="navbar-nav font-weight-light"> <!-- Catalogo de productos --> 
+                <li class="nav-item active"> <!-- producto estrella --> 
+                    <a class="nav-link" href="/products.html">LIBRETAS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"> <!-- productos de mujer --> 
+                    <a class="nav-link" href="/products.html">MUJER <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active"> <!-- productos de hombre -->
+                    <a class="nav-link" href="/products.html">HOMBRE <span class="sr-only">(current)</span></a>
+                </li> 
+                <li class="nav-item active">
+                    <a class="nav-link" href="about_us.html">NOSOTROS</a>
+                </li>  
+            </ul>
+        </div>
+        <div id="nav_icons"class="container justify-content-around w-25">
+            <a href="#" data-toggle="collapse" data-target="#collapseExample"><i class="fa fa-search"></i></a>
+            <a href="/login.html"><i class="fas fa-user"></i></a>
+            <a href="/cart.html"><i class="fa fa-shopping-cart">  0</i></a>
+        </div>
+        </nav>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body border-0"> 
+                <div class="row">
+                    <div class="col-11">
+                        <input class="form-control" type="text" placeholder="Buscar producto..." aria-label="Search">
+                    </div>
+                    <div id ="search_nav_bar"class="col-1 p-0 d-flex justify-content-left">
+                        <a href="#"><i class="fa fa-search align-bottom fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end of navigation bar -->
+    
+    <!-- inicio de productos en products.html -->
+    <div class="container mt-4 mb-4">
+        <div class="row mt-3">
+            <div class="col-2">
+                <div class="row" style="max-height:150px; max-width: 200px;">
+                    <img src="/web_photos/sneakers-1.png" alt="">
+                </div>
+                <div class="row mt-3" style="max-height:150px; max-width: 200px;">
+                    <img src="/web_photos/sneakers-2.png" alt="">
+                </div>
+                <div class="row mt-3" style="max-height:150px; max-width: 200px;">
+                    <img src="/web_photos/sneakers-1.png" alt="">
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="/web_photos/sneakers-1.png" alt="">
+            </div>
+            <div class="col-4">
+                <h1>White sneakers</h1>
+                <p>$18.00</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptates vero rerum nulla eum aliquam quasi. Non quas cumque illum. Nostrum dolor quo eligendi dolorum quisquam soluta unde suscipit ut?</p>
+                <select class="form-control">
+                    <option>Talla...</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                  </select>
+                <button type="submit" id="b_añadir_articulo"class="btn btn-primary btn-lg mt-3 btn-block" form="form-login">Añadir articulo</button>
+                <a id="button_buy_now" type="button" class="btn btn-primary btn-lg mt-3 btn-block" href="/cart.html">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+    <!-- fin de productos en products.html -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
