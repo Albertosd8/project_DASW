@@ -10,7 +10,7 @@
             background-repeat: none; min-height: 350px; max-width: 400px;
 }
 #homepage_3img{
-    background-image: url(/.web_photos/lpz-1.jpeg); background-position: top;
+    background-image: url(./web_photos/lpz-1.jpeg); background-position: top;
     background-size: cover;
     background-repeat: none; min-height: 350px; max-width: 740px;
 }
@@ -18,7 +18,7 @@
     color:darkblue; margin: 160px;
 }
 #homepage_4img{
-    background-image: url(/.web_photos/surf-locos-2.jpg); background-position: center;
+    background-image: url(./web_photos/surf-locos-2.jpg); background-position: center;
             background-size: cover;
             background-repeat: none; min-height: 350px; max-width: 740px;
 }
