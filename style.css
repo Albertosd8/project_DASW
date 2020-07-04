@@ -1,6 +1,6 @@
 /* Home */
 #homepage_1img{
-    background-image: url(./project_DASW/web_photos/bcs-3.jpg); background-position: center;
+    background-image: url(./web_photos/bcs-3.jpg); background-position: center;
     background-size: cover;
     background-repeat: none; min-height: 350px;
 }
@@ -10,7 +10,7 @@
             background-repeat: none; min-height: 350px; max-width: 400px;
 }
 #homepage_3img{
-    background-image: url(/web_photos/lpz-1.jpeg); background-position: top;
+    background-image: url(/.web_photos/lpz-1.jpeg); background-position: top;
     background-size: cover;
     background-repeat: none; min-height: 350px; max-width: 740px;
 }
@@ -18,12 +18,12 @@
     color:darkblue; margin: 160px;
 }
 #homepage_4img{
-    background-image: url(/web_photos/surf-locos-2.jpg); background-position: center;
+    background-image: url(/.web_photos/surf-locos-2.jpg); background-position: center;
             background-size: cover;
             background-repeat: none; min-height: 350px; max-width: 740px;
 }
 #homepage_5img{
-    background-image: url(/web_photos/surf-locos-1.jpg); background-position: center;
+    background-image: url(./web_photos/surf-locos-1.jpg); background-position: center;
             background-size: cover;
             background-repeat: none; min-height: 350px; max-width: 400px;
 }
@@ -54,12 +54,12 @@ img{
     font-size:x-large; 
 }
 [name = about_us_3_s]{
-    background-image: url(/web_photos/surf-locos-2.jpg); background-position: center;
+    background-image: url(./web_photos/surf-locos-2.jpg); background-position: center;
     background-size: cover;
     background-repeat: none; min-height: 350px; max-width: 740px;
 }
 [name = about_us_4_s]{
-    background-image: url(/web_photos/lpz-3.jpeg); background-position: center;
+    background-image: url(./web_photos/lpz-3.jpeg); background-position: center;
             background-size: cover;
             background-repeat: none;
             min-height: 350px
