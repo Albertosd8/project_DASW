@@ -1,11 +1,11 @@
 /* Home */
 #homepage_1img{
-    background-image: url(/project_DASW/web_photos/bcs-3.jpg); background-position: center;
+    background-image: url(./project_DASW/web_photos/bcs-3.jpg); background-position: center;
     background-size: cover;
     background-repeat: none; min-height: 350px;
 }
 #homepage_2img{
-    background-image: url(/web_photos/sneakers-2.png); background-position: center;
+    background-image: url(./web_photos/sneakers-2.png); background-position: center;
             background-size: cover;
             background-repeat: none; min-height: 350px; max-width: 400px;
 }
